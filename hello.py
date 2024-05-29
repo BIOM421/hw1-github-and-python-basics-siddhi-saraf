@@ -3,4 +3,4 @@ def hello_world():
 
 def hello_world_n(N):
     TMP = "Hello World! "
-    return (TMP+N)[::-1]
+    return (TMP*N)[::-1]
